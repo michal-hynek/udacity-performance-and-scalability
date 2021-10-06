@@ -1,0 +1,2 @@
+Reduced the number of EC2 Web and Application instances from 20 to 6.  I think this should be sufficient to serve the project 50,000 users.  I also choose reserved 2 instances instead of on-demand since I'd always want to have at least two instances running for failover.
+Reduced IOPS from 10000 to 5000 on the master database.  The read replica still uses 10000 IOPS.  I assume the read-replica will get more traffic since social media applications have significantly more reads than writes.

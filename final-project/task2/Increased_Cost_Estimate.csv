@@ -1,0 +1,15 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Master DB,Amazon RDS for MySQL,0,6165.46,73985.52,USD,"Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (100 GB), Provisioning IOPS (20000), Quantity (1), Instance type (db.m4.4xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (1000 GB)"
+My Estimate,US East (N. Virginia),Read Replica DB,Amazon RDS for MySQL,0,6165.46,73985.52,USD,"Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (100 GB), Provisioning IOPS (20000), Quantity (1), Instance type (db.m4.4xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (1000 GB)"
+My Estimate,US East (N. Virginia),Web Servers,Amazon EC2,0,129.08,1548.96,USD,"Operating system (Linux), Quantity (2), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage amount (30 GB), Instance type (t4g.xlarge)"
+My Estimate,US East (N. Virginia),Application Servers,Amazon EC2,0,129.08,1548.96,USD,"Operating system (Linux), Quantity (2), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage amount (30 GB), Instance type (t4g.xlarge)"
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,965.7,11588.4,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),Cloudfront Distribution,Amazon CloudFront,0,1105,13260,USD,"Data transfer out to internet (1000 GB per month), Data transfer out to origin (1000 GB per month), Number of requests (HTTPS) (1000000000 per month)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,149.65,1795.8,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),Cloudfront Distribution,S3 Standard,0,4.73,56.76,USD,S3 Standard storage (10 GB per month)
+My Estimate,US East (N. Virginia),Cloudfront Distribution,Data Transfer,0,0,0,USD,
+My Estimate,US East (N. Virginia),DB Backups,S3 Standard,0,230.05,2760.6,USD,S3 Standard storage (10000 GB per month)
+My Estimate,US East (N. Virginia),DB Backups,Data Transfer,0,0,0,USD,
+My Estimate,US East (N. Virginia),Application Web Servers,Amazon EC2,0,2022.24,24266.88,USD,"Operating system (Linux), Quantity (20), Pricing strategy (On-Demand Instances), Storage amount (30 GB), Instance type (t4g.xlarge)"
+My Estimate,US East (N. Virginia),Web Servers,Amazon EC2,0,2022.24,24266.88,USD,"Operating system (Linux), Quantity (20), Pricing strategy (On-Demand Instances), Storage amount (30 GB), Instance type (t4g.xlarge)"
+,,,,,19088.69,,,

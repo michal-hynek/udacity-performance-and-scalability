@@ -1,0 +1,1 @@
+I increased the number of EC2 application and web server instances back to 20.  I also increased the size of RDS servers to m4.4xlarge, increased IOPS to 20000, and enabled multi-az.  I believe the database is potentially the bottleneck, so I used the extra budget to increase the resources for this part of the application.
