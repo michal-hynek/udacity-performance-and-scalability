@@ -12,5 +12,5 @@ My Estimate,US East (N. Virginia),DB Backups,S3 Standard,0,230.05,2760.6,USD,S3 
 My Estimate,US East (N. Virginia),DB Backups,Data Transfer,0,0,0,USD,
 My Estimate,US East (N. Virginia),Application Web Servers,Amazon EC2,0,404.45,4853.4,USD,"Operating system (Linux), Quantity (4), Pricing strategy (On-Demand Instances), Storage amount (30 GB), Instance type (t4g.xlarge)"
 My Estimate,US East (N. Virginia),Web Servers,Amazon EC2,0,404.45,4853.4,USD,"Operating system (Linux), Quantity (4), Pricing strategy (On-Demand Instances), Storage amount (30 GB), Instance type (t4g.xlarge)"
-My Estimate,US East (N. Virginia),Elastic IP for Web Server ALB,Amazon Elastic IP,0,29.2,350.4,USD,"Number of EC2 instances (8), Number of EIPs per instance (1), Number of EIP remaps ()"
-,,,,,6346.79,76161.48,,
+My Estimate,US East (N. Virginia),Elastic IP for Web Server ALB,Amazon Elastic IP,0,7.3,87.6,USD,"Number of EC2 instances (8), Number of EIPs per instance (1), Number of EIP remaps ()"
+,,,,,6324.89,75898.68,,
